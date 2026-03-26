@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>牛庵 | GYUAN - 極上の鉄板焼き</title>
+    <meta name="description" content="厳選された最上級の和牛と海鮮を、五感で味わう鉄板焼き「牛庵」。洗練された空間で至福のひとときを。">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600&family=Noto+Sans+JP:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header Navigation -->
+    <header class="header">
+        <div class="header-inner">
+            <div class="header-left">
+                <!-- Text logo for nav, visible on scroll -->
+                <a href="#" class="nav-logo">牛庵</a>
+            </div>
+            <nav class="header-nav">
+                <ul class="nav-links">
+                    <li><a href="#menu">MENU</a></li>
+                    <li><a href="#concept">CONCEPT</a></li>
+                    <li><a href="#space">SPACE</a></li>
+                    <li><a href="#access">ACCESS</a></li>
+                </ul>
+                <div class="nav-actions">
+                    <div class="lang-switch">
+                        <span class="active">JP</span><span class="divider">|</span><span>EN</span>
+                    </div>
+                    <a href="#reservation" class="btn-reservation">RESERVATION</a>
+                </div>
+                <!-- Mobile Menu Button -->
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg" id="heroBg" style="background-image: url('images/hero_bg.png');"></div>
+        <div class="hero-content">
+            <h1 class="main-logo">
+                <span class="logo-jp">牛庵</span>
+                <span class="logo-en">GYUAN</span>
+            </h1>
+            <p class="hero-subtitle">TEPPANYAKI & WINE</p>
+        </div>
+        <div class="scroll-down">
+            <span>SCROLL</span>
+            <div class="line"></div>
+        </div>
+    </section>
+
+    <!-- Content Wrapper for background texture -->
+    <div class="content-wrapper">
+
+        <!-- Concept Section -->
+        <section class="concept section reveal" id="concept">
+            <div class="container concept-container">
+                <div class="concept-text">
+                    <h2 class="vertical-title">「牛庵」で味わう、<br>至高の静寂と、極上の黒毛和牛。</h2>
+                    <p class="concept-desc">
+                        厳選された最上級のA5ランク黒毛和牛。<br>
+                        和の趣を感じる、落ち着いた庵。<br><br>
+                        熟練の料理人が引き出す、素材本来の極上の旨味。<br>
+                        伝統と洗練が調和する、至高の食体験を。<br>
+                        大切なかたとの、特別なひととき。<br><br>
+                        洗練された大人のための空間で、<br>
+                        「牛庵」でしか味わえない、<br>
+                        記憶に残る一皿をお約束いたします。
+                    </p>
+                    <div class="concept-eng">
+                        Experience the pinnacle of Japanese Wagyu at Gyūan.<br>
+                        A tranquil sanctuary where refined flavors and unparalleled hospitality meet,<br>
+                        promising a culinary journey to be savored with all your senses.
+                    </div>
+                </div>
+                <!-- Concept decorations -->
+                <div class="concept-deco"></div>
+            </div>
+        </section>
+
+        <!-- Feature Images Section (Left/Right alternating) -->
+        <section class="features section" id="features">
+            <!-- Feature 1 -->
+            <div class="feature-row">
+                <div class="feature-img">
+                    <img src="images/raw_beef.png" alt="A5 黒毛和牛">
+                </div>
+                <div class="feature-content horizontal-layout">
+                    <h3 class="feature-title">最高級 A5 黒毛和牛</h3>
+                    <p class="feature-text">
+                        全国から厳選した、とろけるような肉質と芳醇な香りの黒毛和牛。<br>
+                        その日の最高の状態のものだけを仕入れております。
+                    </p>
+                </div>
+            </div>
+
+            <!-- Feature 2 -->
+            <div class="feature-row reverse">
+                <div class="feature-img">
+                    <img src="images/cooked_beef.png" alt="鉄板焼き">
+                </div>
+                <div class="feature-content horizontal-layout">
+                    <h3 class="feature-title">匠の技と臨場感</h3>
+                    <p class="feature-text">
+                        シェフの流れるような手捌きと、鉄板の奏でる心地よい音。<br>
+                        ベストな焼き加減で、お客様のテーブルへお届けします。
+                    </p>
+                </div>
+            </div>
+
+            <!-- Feature 3 -->
+            <div class="feature-row">
+                <div class="feature-img">
+                    <img src="images/seafood.png" alt="新鮮な海の幸">
+                </div>
+                <div class="feature-content horizontal-layout">
+                    <h3 class="feature-title">季節を寿ぐ海の幸</h3>
+                    <p class="feature-text">
+                        伊勢海老や鮑など、活けの海鮮を豪快かつ繊細に。<br>
+                        和牛とはまた違う、格別な味わいをご堪能ください。
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Menu / Courses Section Redesign -->
+        <section class="menu section" id="menu">
+            <div class="menu-intro reveal">
+                <div class="menu-intro-text">
+                    <span class="subtitle">COURSE</span>
+                    <h2 class="vertical-title-lg">上質なコースを<br>お愉しみください</h2>
+                </div>
+                <div class="menu-intro-img">
+                    <img src="images/menu_course_1.png" alt="上質なコースメニュー">
+                </div>
+            </div>
+
+            <div class="menu-detail reveal">
+                <div class="menu-detail-img">
+                    <img src="images/menu_course_2.png" alt="素材のこだわり">
+                </div>
+                <div class="menu-detail-content">
+                    <p class="description">
+                        肉はもちろとのこと、鮑や伊勢海老といった魚介類も厳選するなど、素材選びには一切妥協しておりません。味付けはかつお出汁を基本に、軽やかで飽きのこない和風仕立てにしております。器にも趣向を凝らしていますので、併せてお愉しみください。
+                    </p>
+                    <a href="#" class="btn-red">コースを見る <span class="arrow">▶</span></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Space / Atmosphere Section Redesign -->
+        <section class="space-new" id="space">
+            <!-- 1. Floor Layout -->
+            <div class="space-floor reveal">
+                <div class="space-floor-bg" style="background-image: url('images/hero_bg.png');"></div>
+                <div class="space-floor-content">
+                    <span class="subtitle">FLOOR</span>
+                    <h2 class="vertical-title-md">和の趣を感じる<br>洗練された空間</h2>
+                </div>
+            </div>
+
+            <!-- 2. Counter Layout -->
+            <div class="space-counter reveal">
+                <div class="space-container">
+                    <div class="space-row">
+                        <div class="space-col-img">
+                            <img src="images/seafood.png" alt="カウンター席">
+                        </div>
+                        <div class="space-col-text">
+                            <h3 class="space-title-lg">カウンター席</h3>
+                            <p class="space-text">
+                                目の前で繰り広げられる鉄板焼きの臨場感こそ、カウンターの魅力です。香りや音も含め、五感で味わう贅沢なひとときをお過ごしください。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 3. Private Room Layout -->
+            <div class="space-private reveal">
+                <div class="space-container">
+                    <div class="space-row reverse">
+                        <div class="space-col-img">
+                            <img src="images/raw_beef.png" alt="個室">
+                        </div>
+                        <div class="space-col-text">
+                            <h3 class="space-title-lg">個室</h3>
+                            <p class="space-text">
+                                レイアウト変更も承っており、最大12名様までご利用いただけます。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer" id="access">
+            <div class="footer-container">
+                <div class="footer-logo">
+                    <h2>牛庵</h2>
+                    <p>GYUAN</p>
+                </div>
+
+                <div class="footer-info">
+                    <p>〒903-0805 沖縄県那覇市首里X-X-X</p>
+                    <p>TEL: 098-XXXX-XXXX</p>
+                    <br>
+                    <p>営業時間: 17:00 - 23:00 (L.O. 21:30)</p>
+                    <p>定休日: 日曜日・祝日</p>
+                </div>
+
+                <div class="footer-links">
+                    <a href="#">RESERVATION</a>
+                    <a href="#">MENU</a>
+                    <a href="#">ACCESS</a>
+                    <a href="#">INSTAGRAM</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 GYUAN. All Rights Reserved.</p>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+
+</html>
